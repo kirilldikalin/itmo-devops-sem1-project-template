@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  read_timeout: 1m
+  write_timeout: 1m
+  max_file_size: 10MB
+
+database:
+  host: localhost
+  port: 5432
+  user: validator
+  password: val1dat0r
+  name: project-sem-1
